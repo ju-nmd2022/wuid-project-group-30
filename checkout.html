@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styleNavFooter.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styleCheckout.css" />
+    <title>Checkout</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="logo">
+        <a href="index.html"
+          ><img id="logo" src="res/LogoWhiteNoBg.png" alt="LogoWhiteNoBg"
+        /></a>
+      </div>
+
+      <a href="#" class="togglebtn" id="togglebtn">
+        <span class="linee"></span>
+        <span class="linee"></span>
+        <span class="linee"></span>
+      </a>
+
+      <div class="menus" id="menus">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Recipes</a></li>
+          <li><a href="shopping-cart.html">Shop</a></li>
+          <li><a href="#">Tips&Techniques</a></li>
+        </ul>
+      </div>
+      <div class="search">
+        <form action=""></form>
+        <input type="text" placeholder="Search" />
+      </div>
+    </nav>
+    <h1 class="title">Finish Order</h1>
+    <div class="main-container">
+      <div class="checkout-form">
+        <form action="#">
+          <div class="left">
+            <h2>Personal Information</h2>
+            <label for="firstnameinput">First Name</label>
+            <input type="text" id="firstnameinput" />
+            <label for="lastnameinput">Last Name</label>
+            <input type="text" id="lastnameinput" />
+            <label for="emailinput">Email</label>
+            <input type="text" id="emailinput" />
+            <label for="phoneinput">Phone number</label>
+            <input type="text" id="phoneinput" />
+            <label for="countryinput">Country</label>
+            <input type="text" id="countryinput" />
+            <label for="addressinput">Address</label>
+            <input type="text" id="addressinput" />
+            <label for="zipinput">Zip/Postal Code</label>
+            <input type="text" id="zipinput" />
+          </div>
+          <div class="middle">
+            <h2>Shipping</h2>
+            <br />
+            <div class="shipping-wrap">
+              <label for="shipping">PostNord</label>
+              <input type="checkbox" id="shipping" />
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <footer>
+      <div class="logo">
+        <a href="index.html"
+          ><img id="logo" src="res/LogoWhiteNoBg.png" alt="LogoWhiteNoBg"
+        /></a>
+
+        <div class="socialBtns">
+          <p class="follow">Follow us</p>
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-instagram"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-pinterest"></a>
+          <a href="#" class="fa fa-youtube"></a>
+        </div>
+      </div>
+      <div class="menusFooter" id="menusFooter">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Recipes</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">Tips&Techniques</a></li>
+        </ul>
+      </div>
+    </footer>
+    <script src="Header.js" defer></script>
+  </body>
+</html>
