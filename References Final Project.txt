@@ -1,0 +1,10 @@
+Social media buttons for footer - https://www.w3schools.com/howto/howto_css_social_media_buttons.asp
+
+Make the footer stick to the bottom of the page - https://dev.to/nehalahmadkhan/how-to-make-footer-stick-to-bottom-of-web-page-3i14
+
+Responsive Nav - https://www.youtube.com/watch?v=oLgtucwjVII&ab_channel=CodingNepal
+
+Responsive nav + hamburger menu - https://www.youtube.com/watch?v=At4B7A4GOPg&ab_channel=WebDevSimplified
+
+
+Hide the navbar on scrolling - https://www.youtube.com/watch?v=Q_XZk5Vnujw&ab_channel=dcode
