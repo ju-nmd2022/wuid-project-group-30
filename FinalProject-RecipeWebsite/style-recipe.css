@@ -1,0 +1,80 @@
+.parent33 {
+  display: grid;
+  grid-template-columns: 0.5fr repeat(5, 1fr) 0.5fr;
+  grid-template-rows: 0.5fr repeat(17, 1fr);
+  grid-column-gap: 16px;
+  grid-row-gap: 19px;
+}
+
+.parent33 p {
+  color: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.side-image1 {
+  grid-area: 16 / 5 / 40 / 7;
+  background-color: violet;
+  display: grid;
+  background-image: url(sidepic-pasta.jpg);
+  background-size: 100%;
+  background-position: bottom center;
+}
+.side-image2 {
+  grid-area: 41 / 5 / 65 / 7;
+  background-color: violet;
+  display: grid;
+  background-image: url(sidepic2-pasta.jpg);
+  background-size: 100%;
+  background-position: center;
+}
+.textbox1 {
+  grid-area: 16 / 2 / 65 / 5;
+  display: grid;
+  background-color: transparent;
+}
+.banner-img {
+  grid-area: 2 / 2 / 16 / 7;
+  background-color: blue;
+  display: grid;
+  background-image: url(PASTA.jpg);
+  background-size: 100%;
+  background-position: center;
+}
+
+.margin-box {
+  grid-area: 66 / 2 / 66 / 7;
+  display: grid;
+}
+
+.rating {
+  grid-area: 16 / 3 / 18 / 5;
+  display: grid;
+  background-image: url(rr.png);
+  background-size: 30%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  margin-right: 35%;
+  margin-bottom: 3%;
+}
+
+.cook-time {
+  grid-area: 16 / 4 / 18 / 5;
+  display: grid;
+  background-size: 30%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  text-align: bottom;
+  margin-top: 4%;
+}
+
+.cals {
+  grid-area: 17 / 3 / 21 / 5;
+  display: grid;
+  background-size: 30%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  text-align: bottom;
+  margin-top: 4%;
+  background-color: black;
+  margin-left: 20%;
+}
