@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="styleNavFooter.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="styleCheckout.css" />
+
     <title>Checkout</title>
   </head>
   <body>
@@ -41,9 +42,10 @@
       </div>
     </nav>
     <h1 class="title">Finish Order</h1>
-    <div class="main-container">
-      <div class="checkout-form">
-        <form action="#">
+    <!-- <div class="main-container"> -->
+    <div class="checkout-form">
+      <form action="#">
+        <div class="wrapper">
           <div class="left">
             <h2>Personal Information</h2>
             <label for="firstnameinput">First Name</label>
@@ -62,16 +64,52 @@
             <input type="text" id="zipinput" />
           </div>
           <div class="middle">
-            <h2>Shipping</h2>
-            <br />
             <div class="shipping-wrap">
+              <h2>Shipping</h2>
+              <br />
+
               <label for="shipping">PostNord</label>
               <input type="checkbox" id="shipping" />
             </div>
+            <h2>Payment</h2>
+            <br />
+            <div class="payment-wrap">
+              <div class="swish-wrap">
+                <label for="paymentinput"> Swish</label>
+                <input type="checkbox" id="paymentinput" />
+              </div>
+              <div class="debit-card-wrap">
+                <label for="paymentinput">Debit Card</label>
+                <input type="checkbox" id="paymentinput" />
+              </div>
+            </div>
           </div>
-        </form>
-      </div>
+          <div class="right">
+            <h2>Your Cart</h2>
+            <div class="product">
+              <div class="bookimg">
+                <img src="res/snoop-book.jpg" alt="product-1" />
+              </div>
+              <div class="textbox">
+                <p class="product-info">
+                  From Crook to Cook: Platinum Recipes from Tha Boss Dogg's
+                  Kitchen (Snoop Dogg Cookbook, Celebrity Cookbook with Soul
+                  Food Recipes) (Snoop Dog x Chronicle Books)
+                </p>
+                <p class="author">Author: Snoop Dog</p>
+                <p class="price">Price: 161,00 kr</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
     </div>
+    <div class="confirm-order">
+      <form action="#">
+        <input id="confirmbtn" type="submit" value="Confirm Order" />
+      </form>
+    </div>
+    <!-- </div> -->
     <footer>
       <div class="logo">
         <a href="index.html"

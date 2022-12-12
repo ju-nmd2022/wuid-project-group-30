@@ -23,6 +23,7 @@
   flex-direction: column;
   border: 0.5px solid rgba(77, 77, 77, 0.7);
   align-items: center;
+  margin-bottom: 20px;
 }
 .product img {
   width: 280px;
